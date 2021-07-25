@@ -1,0 +1,95 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background: url(world.JPG); 
+    background-size: cover;
+    background-position:centre;
+    font-family: 'Arial';
+    
+}  
+.login{  
+        width: 358px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 10 0 0 450px;  
+        padding: 80px;  
+        background: ; 
+        border-radius: 15px ;  }
+
+.image{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+position: absolute;
+top: -200px;
+left: calc(50% - 50px);
+}
+         
+  
+h1{  
+    text-align: center;  
+    color: red;
+   font-size: 40px;   
+    padding: 30px;  
+}  
+label{  
+    color: brown;  
+    font-size: 20px; 
+	width: 500px;
+    
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px; 
+	color: brown;	
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px; 
+	color: brown;
+      
+}  
+#log{  
+    width: 300px;  
+    height: 200px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 15px;  
+    color: blue;
+  
+  
+  
+}  
+
+
+
+span{  
+    color: blue;  
+    font-size: 15px; 
+background-color: white;
+   
+} 
+  
+a{  
+    float: right;  
+    background-color: white;  
+}
+
+.button {
+  background-color: blue;
+  color:  "#000080";
+  padding: 7px 70px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+.button1 {background-color: blue;} /* Green */

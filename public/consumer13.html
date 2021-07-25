@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>    
+<head>    
+    <title>Feedi : Consumer</title>    
+	<table border="0" width="100%" height="10%" >
+	<tr>
+		<td width="20%" align="center" bgcolor="red"class="links"><font color="white"> <a href ="zerohunger.html">HOME</a></td>
+		<td width="20%" align="center"bgcolor="red" class="links"><font color="white"> <a href ="login.html">LOGIN</a></td>
+		<td width="20%" align="center" bgcolor="red" class="links"><font color="white"> <a href ="signup.html">SIGNUP</a></td>
+		<td width="20%" align="center" bgcolor="red" class="links"><font color="white"><a href ="provider13.html" >PROVIDER</a></td>
+		<td width="20%" align="center" bgcolor="green" class="links"><font color="white"> <a href ="consumer13.html">CONSUMER</a>
+	</tr>
+</table>
+
+
+</head>    
+
+<style>
+        input.largerCheckbox {
+            width: 20px;
+            height: 20px;
+        }
+    </style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {background-color: red;}
+#News {background-color: green;}
+#Contact {background-color: blue;}
+#About {background-color: orange;}
+
+.links
+{
+border-radius:10px;
+}
+.links:hover
+{
+background-color:green;
+}
+a{
+color:white;
+font-size: 23px;
+text-decoration: none;
+}
+ 
+
+
+</style>
+
+<body bgcolor="olive">
+<marquee behaviour="alternate" scrollamount="5"><font color="yellow"><i><h3>FEEDI, Food Donation Platform, powered by IBM Watson</h3></i></font></marquee>
+<marquee behaviour="alternate" scrollamount="5"><font color="yellow"><i><h3>Thank you for requesting food from us. Enjoy your meal ! </h3></i></font></marquee>
+
+<button class="tablink" onclick="openPage('Vegetariantab', this, 'green')" id="defaultOpen">Vegetarian</button>
+<button class="tablink" onclick="openPage('nonvegtab', this, 'red')" >Non-Vegetarian</button>
+<button class="tablink" onclick="openPage('bevtab', this, 'orange')">Beverages</button>
+<button class="tablink" onclick="openPage('placeorder', this, 'blue')" >Request food</button>
+
+<div id="Vegetariantab" class="tabcontent">
+  <h3>Select the food you need</h3>
+  <table>
+	<tr>
+		<td><img  src="22.jpg" ></td>
+		<td><img  src="23.jpg" ></td>
+	</tr>
+	</tr>
+		<td> Quality : Good <br>
+			Nutrition : Moderate <br>
+			Quantity : 2 persons <br>
+			Age group : Above 10 years  <br>
+			Best before : 26th July, 2021
+		</td>
+		<td> Quality : Good <br>
+			Nutrition : Moderate <br>
+			Quantity : 5 persons <br>
+			Age group : Above 10 years  <br>
+			Best before : 26th July, 2021
+		</td>
+	</tr>
+	<tr>
+		<td style="text-align:center"><input type="checkbox" name="image_check[]" class="largerCheckbox" value="1"/>
+		<td style="text-align:center"><input type="checkbox" name="image_check[]" class="largerCheckbox" value="1"/>
+	</tr>
+</table>
+</div>
+
+<div id="nonvegtab" class="tabcontent">
+  <h3>Non-Vegetarian</h3>
+  <table>
+	<tr>
+		<td><img  src="24.jpg" ></td>
+		<td><img  src="25.jpg" ></td>
+		<td><img  src="999.jpg"></img></td>
+	</tr>
+	<tr>
+		<td> Quality : Good <br>
+			Nutrition : Moderate <br>
+			Quantity : 2 persons <br>
+			Age group : Above 10 years  <br>
+			Best before : 26th July, 2021
+		</td>
+		<td> Quality : Good <br>
+			Nutrition : Moderate <br>
+			Quantity : 4 persons <br>
+			Age group : Above 10 years  <br>
+			Best before : 26th July, 2021
+		</td>
+		<td> Quality : Good <br>
+			Nutrition : Moderate <br>
+			Quantity : 1 persons <br>
+			Age group : Above 10 years  <br>
+			Best before : 26th July, 2021
+		</td>
+	</tr>
+	<tr>
+		<td style="text-align:center"><input type="checkbox" name="image_check[]" class="largerCheckbox" value="1"/>
+		<td style="text-align:center"><input type="checkbox" name="image_check[]" class="largerCheckbox" value="1"/>
+		<td style="text-align:center"><input type="checkbox" name="image_check[]" class="largerCheckbox" value="1"/>
+	</tr>
+</table>
+</div>
+
+<div id="bevtab" class="tabcontent">
+  <h3>Beverages / Desserts</h3>
+  <table>
+	<tr>
+		<td><img  src="26.jpg" ></td>
+		<td><img  src="28.jpg" ></td>
+	</tr>
+	<tr>
+		<td> Quality : Good <br>
+			Nutrition : Moderate <br>
+			Quantity : 4 persons <br>
+			Age group : Above 10 years  <br>
+			Best before : 26th July, 2021
+		</td>
+		<td> Quality : Good <br>
+			Nutrition : Moderate <br>
+			Quantity : 2 persons <br>
+			Age group : Above 5 years  <br>
+			Best before : 26th July, 2021
+		</td>
+	</tr>
+	<tr>
+		<td style="text-align:center"><input type="checkbox" name="image_check[]" class="largerCheckbox" value="1"/>
+		<td style="text-align:center"><input type="checkbox" name="image_check[]" class="largerCheckbox" value="1"/>
+	</tr>
+  </table>
+</div>
+
+<div id="placeorder" class="tabcontent">
+  <p style="color:white"; style="font-family: Arial">Review the food request, select your organization and confirm. </p>
+  <label for="ngos"><h4> <p style="color:white";>Select your organization:</h4></label>
+		<select name="foodtype" id="foodtype">
+			<option value="veg">NGO1</option>
+			<option value="nonveg">NGO2</option>
+			<option value="beverages">NGO3</option>
+		</select>
+		<a href="order.html"><input type="button"<name="order" id="order" value="Request Food"></a>
+		</p>
+  
+<table>
+	<tr>
+		<td><img  src="22.jpg" ></td>
+		<td><img  src="24.jpg" ></td>
+		<td><img  src="28.jpg" ></td>
+	</tr>
+	<tr>
+		<td> Quality : Good <br>
+			Nutrition : Moderate <br>
+			Quantity : 4 persons <br>
+			Age group : Above 10 years  <br>
+			Best before : 26th July, 2021<br>
+		</td>
+		<td> Quality : Good <br>
+			Nutrition : Moderate <br>
+			Quantity : 2 persons <br>
+			Age group : Above 5 years  <br>
+			Best before : 26th July, 2021<br>
+		</td>
+		<td> Quality : Good <br>
+			Nutrition : Moderate <br>
+			Quantity : 2 persons <br>
+			Age group : Above 5 years  <br>
+			Best before : 26th July, 2021<br>
+		</td>
+	</tr>
+	</table>
+	
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
+
+
+
+
+
+</body>
+
+</html>
