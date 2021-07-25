@@ -24,6 +24,10 @@ The food consumers are registered NGOs who will place the request for donated fo
 
 ![solution](https://user-images.githubusercontent.com/87897874/126889731-7b1ebfdc-65d7-4fc2-8c23-6cc593cc29bd.JPG)
 
+<h3>Application Development</h3>
+ The FEEDI Application has been developed using IBM Starter Kit based on node.js<br>
+Website is available at https://feedi.eu-gb.mybluemix.net/
+
 <h3> Team</h3>
 University-Autonomous<br>
 College- Patna Women's College, Patna https://patnawomenscollege.in/<br>
