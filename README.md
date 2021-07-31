@@ -16,6 +16,9 @@ The idea is to provide a platform FEEDI, which acts as a bridge between the food
 The Food providers are the donors who have surplus food, they can be individuals, hotels, restaurants, canteens, weddings venues etc. The donated food is scanned using IBM Watson image processing Services, which provides all details of quality,quantity, nutrition and validity of food.
 The food consumers are registered NGOs who will place the request for donated food. They can place the request through the FEEDI website or mobile apps. The website, mobile apps are powered by IBM Watson chatbot service. Additionally the idea is to allow consumers to place requests using audio service. The audio will be converted into text using IBM Watson Speech to Text service and we will be supporting local languages.
 
+<h3>FEEDI:Demo Video </h3>
+https://youtu.be/oZ_DCJ7fNSo
+
 <h3> FEEDI:Architecture </h3>
 
 ![architectre](https://user-images.githubusercontent.com/87897874/126889643-75e41e40-35d7-4f9c-8dc7-9f343678c794.JPG)
